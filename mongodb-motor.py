@@ -25,4 +25,6 @@ async def find_filme():
     
     finally:
         await client.close()
+    
+asyncio.run(find_filme())
    
